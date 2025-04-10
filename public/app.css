@@ -1,0 +1,148 @@
+body {
+    font-family: Lora;
+    margin: auto;
+    min-width: 320px;
+}
+
+p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.adress {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 8%;
+    background-color: grey;
+}
+
+.nav_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #93B03F;
+    border-radius: 5px;
+    height: 50px;
+    padding-left: 8%;
+    padding-right: 8%;
+    flex-wrap: wrap;
+
+}
+
+.search {
+    height: 120px;
+}
+
+.links {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.nav_link {
+    font-size: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.footer_nav {
+    display: flex;
+}
+
+.nav_name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_box {
+
+    max-width: 350px;
+    max-height: 224px;
+}
+
+.logo {
+    display: flex;
+}
+
+.interes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.text_interes_green {
+    font-size: 24px;
+}
+
+.text {
+    text-align: center;
+
+}
+
+.nav_footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.phone_adres {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.phone {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+}
+
+.montage {
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.montage_text {
+    display: flex;
+}
+
+.montage_description {
+    padding-bottom: 5px;
+}
+
+.montage p {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.montage_img {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.montage_img img {
+    width: 600px;
+    height: 800px;
+
+}
+
+@media (max-width: 600px) {
+    .montage_img img {
+        width: 320px;
+        height: 400px;
+    }
+}
