@@ -26,35 +26,31 @@ echo "INDEX";
     <div class="index-interests">
         <div class="index-interests-1">
             <div class="index-interests-name">
-                Decoración duradera de cualquier espacio
+                <p>Decoración duradera de cualquier espacio</p>
             </div>
             <div class="index-interests-img">
                 <img src="img/elephantsmall.png" alt="">
             </div>
         </div>
         <div class="index-interests-2">
-            <div class="index-interests-box-4">
-                <div class="interes-box-1">
-                    <div>
-                        <p class="index-cifra">2</p>
-                        <p class="index-big-letter">años de Servicio</p>
-                    </div>
-                    <p class="index-small-letter">No se corroe. Compuesto de fibra de vidrio y césped artificial</p>
-                </div>
-                <div class="interes-box-2">
-                    <p class="index-big-letter">No requiere mantenimiento</p>
-                    <p class="index-small-letter">Los topiarios no necesitan ser regados, fertilizados y cortados regularmente</p>
-                </div>
-                <div class="interes-box-3">
-                    <p class="index-big-letter">Alta resistencia</p>
-                    <p class="index-small-letter">Soportar grandes cargas de peso y no tienen miedo a los golpes, resistente a las heladas</p>
-                </div>
-                <div class="interes-box-4">
-                    <p class="index-big-letter">Más de</p>
-                    <p class="index-cifra">100</p>
-                    <p class="index-big-letter">figuras</p>
-                    <p class="index-small-letter">Una gran selección de figuras topiares para un diseño de paisaje espectacular</p>
-                </div>
+            <div class="interes-box-1">
+                <p class="index-cifra">2</p>
+                <p class="index-big-letter">años de Servicio</p>
+                <p class="index-small-letter">No se corroe. Compuesto de fibra de vidrio y césped artificial</p>
+            </div>
+            <div class="interes-box-2">
+                <p class="index-big-letter">No requiere mantenimiento</p>
+                <p class="index-small-letter">Los topiarios no necesitan ser regados, fertilizados y cortados regularmente</p>
+            </div>
+            <div class="interes-box-3">
+                <p class="index-big-letter">Alta resistencia</p>
+                <p class="index-small-letter">Soportar grandes cargas de peso y no tienen miedo a los golpes, resistente a las heladas</p>
+            </div>
+            <div class="interes-box-4">
+                <p class="index-big-letter">Más de</p>
+                <p class="index-cifra">100</p>
+                <p class="index-big-letter">figuras</p>
+                <p class="index-small-letter">Una gran selección de figuras topiares para un diseño de paisaje espectacular</p>
             </div>
         </div>
     </div>
@@ -96,6 +92,29 @@ echo "INDEX";
                 <p class="delivery-price-text-small">
                     Diseñaremos especialmente para usted y lo fabricaremos al más alto nivel, aunque por la fotografía
                 </p>
+            </div>
+        </div>
+    </div>
+    <div class="servis">
+        <div class="servis-name">
+            Nuestro Servicio incluye entrega e instalación
+        </div>
+        <div class="servis-boxes">
+            <div class="servis-box">
+                <p class="servis-box-big">Organización de la entrega</p>
+                <p class="servis-box-small">Organizamos la entrega a cualquier localidad del país con la garantía de la integridad</p>
+            </div>
+            <div class="servis-box">
+                <p class="servis-box-big">Montaje de figuras</p>
+                <p class="servis-box-small">Asuncion</p>
+            </div>
+            <div class="servis-box">
+                <p class="servis-box-big">Protección contra vándalos</p>
+                <p class="servis-box-small">Formas de fijación reforzadas para la instalación en lugares públicos y públicos</p>
+            </div>
+            <div class="servis-box">
+                <p class="servis-box-big">Período de garantías</p>
+                <p class="servis-box-small">Dentro de un año para la detección de defectos o defectos de fabricación</p>
             </div>
         </div>
     </div>
