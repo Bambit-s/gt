@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\Catalog;
 use Illuminate\Support\Facades\Route;
+
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -8,9 +10,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/catalog', function () {
-    return view('catalog');
-});
+// Route::get('/catalog', function () {
+//     return view('catalog');
+// });
+Route::any('/catalog', [Catalog::class, 'catalog']);
+
+
 Route::get('/contacts', function () {
     return view('contacts');
 });
