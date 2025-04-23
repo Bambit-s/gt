@@ -35,6 +35,7 @@ p {
     flex-wrap: wrap;
     padding-left: 8%;
     padding-right: 8%;
+    margin-bottom: 15px;
 }
 
 .search {
@@ -92,6 +93,22 @@ p {
 
 .nav_link {
     font-size: 15px;
+    text-decoration: none;
+    color: black;
+    height: 20px;
+    width: 121px;
+    text-align: center;
+
+}
+
+.nav_link_active {
+    background-color: #4A742F;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    height: 20px;
+    width: 121px;
+    text-align: center;
 }
 
 .footer {
@@ -515,30 +532,53 @@ p {
     font-size: 18px;
     color: #4A742F;
 }
-.carousel{
+
+.carousel {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding-left: 8%;
     padding-right: 8%;
 }
-.item-main{
+
+.photo-description {
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.item-main {
     margin: 0;
     padding: 0;
     display: flex;
     position: relative;
     width: 100%;
-    height: 300px;
-    width: 300px;
-    
+    height: 340px;
+    width: 340px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
 }
-.imgs_catalog{
+
+.imgs_catalog {
     position: absolute;
-    overflow: hidden;
-    background-size: cover;
+    opacity: 0;
+
 }
-img{
+
+.figures-text {
+    margin-top: 20px;
+}
+
+.active {
+    position: absolute;
+    opacity: 1;
+}
+
+img {
     width: 100%;
-    
+
 }
+
 @media (max-width: 320px) {
     .footer {
         flex-direction: column;

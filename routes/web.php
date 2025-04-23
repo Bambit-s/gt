@@ -1,20 +1,15 @@
 <?php
 
 use App\Http\Controllers\Catalog;
+use App\Http\Controllers\FigurePage;
 use Illuminate\Support\Facades\Route;
 
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 Route::get('/', function () {
     return view('index');
 });
-// Route::get('/catalog', function () {
-//     return view('catalog');
-// });
-Route::any('/catalog', [Catalog::class, 'catalog']);
+Route::get('/catalog/{id}', [FigurePage::class, 'show']);
 
+Route::get('/catalog', [Catalog::class, 'catalog']);
 
 Route::get('/contacts', function () {
     return view('contacts');

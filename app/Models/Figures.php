@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
+
 class Figures extends Model
 {
     public static function show()
@@ -11,5 +12,4 @@ class Figures extends Model
         $figures = DB::select('select * from figures');
         return $figures;
     }
-
 }

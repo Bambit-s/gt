@@ -1,7 +1,7 @@
 <div class="footer">
     <div class="footer_box">
         <div class="logo">
-            <a href="/"><img src="img\logo80x80.png" alt=""></a>
+            <a href="/"><img src="\img\logo80x80.png" alt=""></a>
             <div class="interes">
                 <div class="text_interes">
                     Estudio topiari
@@ -35,11 +35,11 @@
         <div class="phone_adres">
             <p>Asuncion, Villa Elisa</p>
             <div class="phone">
-                <img src="img\phone-modern.svg" alt="" width="15" height="20">
+                <img src="\img\phone-modern.svg" alt="" width="15" height="20">
                 <p>+595 123 123 123</p>
             </div>
             <div class="phone">
-                <img src="img\phone-modern.svg" alt="" width="15" height="20">
+                <img src="\img\phone-modern.svg" alt="" width="15" height="20">
                 <p>+595 123 123 123</p>
             </div>
         </div>

@@ -9,6 +9,6 @@ class Catalog extends Controller
     function catalog()
     {
         $res = Figures::show();
-        return view('catalog', ['results'=>$res]);
+        return view('catalog', ['results' => $res]);
     }
 }
