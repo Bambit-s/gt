@@ -32,11 +32,11 @@
             echo  '<div class="price">' . $res['price'] . ' ₲</div>';
             echo '</div>';
             echo '<div class="specs-grid">';
-            echo    '<div class="spec-item">';
+            echo    '<div class="spec-item-catalog">';
             echo        '<span class="spec-label">Tamaño:</span>';
             echo        '<span class="spec-value">' . $res['size'] . ' cm</span>';
             echo    '</div>';
-            echo    '<div class="spec-item">';
+            echo    '<div class="spec-item-catalog">';
             echo        '<span class="spec-label">Peso:</span>';
             echo        '<span class="spec-value">' . $res['weight'] . ' kg</span>';
             echo    '</div>';

@@ -14,3 +14,4 @@ foreach ($nav as $link) {
         echo '<a href="' . $link[0] . '" class="nav_link">' . $link[1] . '</a>';
     }
 }
+?>

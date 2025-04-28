@@ -36,7 +36,7 @@
             $datas_figure = (json_decode(json_encode($datas), true));
             echo '<div class="figure-card">';
             echo    '<div class="figure-header">';
-            echo        '<h2 class="figure-name">' . $datas_figure['title'] . '</h2>';
+            echo        '<h2 class="figure-name">' . $datas_figure['webname'] . '</h2>';
             echo        '<div class="figure-price">' . $datas_figure['price'] . '₲</div>';
             echo    '</div>';
             echo    '<div class="figure-specs">';
@@ -61,3 +61,5 @@
     ?>
 </div>
 @include('footer')
+
+<script></script>

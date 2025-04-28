@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="\app.css">
+    <!-- <link rel="stylesheet" href="/app.css"> -->
     @vite(['public/app.css', 'public/java.js','resources/js/app.js', 'public/javafigure.js'])
     <title>Eco Portal</title>
 </head>
@@ -19,13 +19,13 @@
                 <a href="/"><img src="\img\logo80x80.png" alt=""></a>
                 <div class="interes">
                     <div class="text_interes">
-                        Estudio topiari
+                        <p>Estudio topiari</p>
                     </div>
                     <div class="text_interes_green">
-                        Eco Portal
+                        <p>Eco Portal</p>
                     </div>
                     <div class="text_interes">
-                        Producción de figuras topiarias
+                        <p>Producción de figuras topiarias</p>
                     </div>
                 </div>
             </div>
@@ -46,17 +46,18 @@
                         </div>
                     </div>
                 </div>
-                <form action="" method="get">
-                    <input class="search-line" type="text" name="query" placeholder="Buscar por catálogo...">
-                </form>
-
+                <div class="search-block">
+                    <form action="" method="get">
+                        <input class="search-line" type="text" name="query" placeholder="Buscar por catálogo...">
+                    </form>
+                </div>
             </div>
             <div class="phone_adres">
-                <div class="phone">
+                <div class="phone-1">
                     <img src="\img\phone-modern.svg" alt="" width="15" height="20">
                     <p>+595 123 123 123</p>
                 </div>
-                <div class="phone">
+                <div class="phone-2">
                     <img src="\img\phone-modern.svg" alt="" width="15" height="20">
                     <p>+595 123 123 123</p>
                 </div>
@@ -66,4 +67,3 @@
             @include('nav')
         </nav>
     </div>
-
