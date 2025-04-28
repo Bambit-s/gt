@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="\app.css">
-    @vite(['public/app.css', 'public/java.js','resources/js/app.js'])
+    @vite(['public/app.css', 'public/java.js','resources/js/app.js', 'public/javafigure.js'])
     <title>Eco Portal</title>
 </head>
 
@@ -66,3 +66,4 @@
             @include('nav')
         </nav>
     </div>
+
