@@ -29,7 +29,7 @@ Array.from(items).forEach(container => {
 
 document.addEventListener('DOMContentLoaded', function () {
     const mainFigure = document.querySelector('.figure-first img');
-    const originalSrc = mainFigure.src;
+    var originalSrc = mainFigure.src;
     const scrollingContainer = document.querySelector('.figure-scrolling');
     const upBtn = document.querySelector('.up-btn');
     const downBtn = document.querySelector('.down-btn');
@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.figure-other img').forEach(figure => {
         figure.addEventListener('mouseenter', () => {
             mainFigure.src = figure.src;
+            console.log(mainFigure.src);
         });
 
         figure.addEventListener('mouseleave', () => {
